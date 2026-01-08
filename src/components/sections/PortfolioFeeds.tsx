@@ -5,7 +5,7 @@ import { Instagram, ArrowUpRight } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { CLIENT_INFO } from '@/lib/portfolio-constants';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 interface PortfolioFeedsProps {
     assets?: Record<string, string[]>;
@@ -22,7 +22,7 @@ const containerVariants = {
     }
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
     hidden: { opacity: 0, y: 40, scale: 0.95, filter: 'blur(10px)' },
     visible: {
         opacity: 1,
@@ -32,8 +32,7 @@ const itemVariants = {
         transition: {
             type: "spring",
             stiffness: 50,
-            damping: 20,
-            duration: 0.8
+            damping: 20
         }
     }
 };

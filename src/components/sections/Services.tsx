@@ -30,7 +30,7 @@ const services = [
     }
 ];
 
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -43,7 +43,7 @@ const containerVariants = {
     }
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
     hidden: { opacity: 0, y: 30, filter: 'blur(10px)' },
     visible: {
         opacity: 1,
