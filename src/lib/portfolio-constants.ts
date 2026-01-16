@@ -5,4 +5,5 @@ export const CLIENT_INFO = [
     { name: "Pray Semarang", slug: "pray-semarang", category: "FNB", instagram: "https://www.instagram.com/pray.smg/", handle: "@pray.smg" },
     { name: "D Sagara Cilacap", slug: "d-sagara", category: "FNB", instagram: "https://www.instagram.com/d.sagara_/", handle: "@d.sagara_" },
     { name: "Purwakawan Coffee", slug: "purwakawan", category: "Coffee", instagram: "https://www.instagram.com/purwakawan.coffee/", handle: "@purwakawan.coffee" },
+    { name: "Ceritakan Coffee", slug: "ceritakancoffee", category: "Coffee", instagram: "https://www.instagram.com/ceritakancoffee/", handle: "@ceritakancoffee" },
 ];

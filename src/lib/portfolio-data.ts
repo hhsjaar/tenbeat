@@ -13,6 +13,7 @@ const FOLDER_MAPPING: Record<string, string> = {
   'pray-semarang': 'pray-semarang',
   'd-sagara': 'd-sagara',
   'purwakawan': 'purwakawan',
+  'ceritakancoffee': 'ceritakancoffee',
   'reels-spotlight': 'reels-spotlight',
 };
 
