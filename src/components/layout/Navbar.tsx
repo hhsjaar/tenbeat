@@ -7,10 +7,11 @@ import { Menu, X } from 'lucide-react';
 import { GlassCard } from '@/components/ui/GlassCard';
 
 const navLinks = [
-    { name: 'Beranda', href: '#home' },
-    { name: 'Layanan', href: '#services' },
-    { name: 'Portofolio', href: '#portfolio' },
-    { name: 'Reels', href: '#reels' },
+    { name: 'Beranda', href: '/' },
+    { name: 'Web Development', href: '/webdev' },
+    { name: 'Layanan', href: '/#services' },
+    { name: 'Portofolio', href: '/#portfolio' },
+    { name: 'Reels', href: '/#reels' },
 ];
 
 export function Navbar() {
